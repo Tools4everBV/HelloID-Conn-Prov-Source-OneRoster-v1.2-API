@@ -1,0 +1,104 @@
+[
+  {
+    "key": "BaseURI",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "URL",
+      "placeholder": "https://server.domain.com",
+      "required": true
+    }
+  },
+  {
+    "key": "ClientKey",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "API Key",
+      "placeholder": "",
+      "required": true
+    }
+  },
+  {
+    "key": "ClientSecret",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "API Secret",
+      "type": "password",
+      "required": false
+    }
+  },
+  {
+    "key": "TokenUri",
+    "type": "input",
+    "defaultValue": "https://domain.com/oauth/token",
+    "templateOptions": {
+      "label": "Token URI",
+      "required": true
+    }
+  },
+  {
+    "key": "PageSize",
+    "type": "input",
+    "defaultValue": "1000",
+    "templateOptions": {
+      "label": "Page Size",
+      "required": true
+    }
+  },
+  {
+    "key": "UserFilter",
+    "type": "input",
+    "defaultValue": "status='active'",
+    "templateOptions": {
+      "label": "User Filter",
+      "required": false
+    }
+  },
+  {
+    "key": "DemographicFilter",
+    "type": "input",
+    "defaultValue": "status='active'",
+    "templateOptions": {
+      "label": "Demographic Filter",
+      "required": false
+    }
+  },
+  {
+    "key": "ClassFilter",
+    "type": "input",
+    "defaultValue": "status='active'",
+    "templateOptions": {
+      "label": "Class Filter",
+      "required": false
+    }
+  },
+  {
+    "key": "CourseFilter",
+    "type": "input",
+    "defaultValue": "status='active'",
+    "templateOptions": {
+      "label": "Class Filter",
+      "required": false
+    }
+  },
+  {
+    "key": "OrgFilter",
+    "type": "input",
+    "defaultValue": "status='active'",
+    "templateOptions": {
+      "label": "Org Filter",
+      "required": false
+    }
+  },
+  {
+    "key": "EnrollmentFilter",
+    "type": "input",
+    "defaultValue": "status='active'",
+    "templateOptions": {
+      "label": "Enrollment Filter",
+      "required": false
+    }
+  }
+]
