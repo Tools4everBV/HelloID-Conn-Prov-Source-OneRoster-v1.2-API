@@ -103,7 +103,7 @@ function Get-Data {
             }
             
             try {
-                $response = Invoke-RestMethod @splat -Proxy "http://localhost:8888"
+                $response = Invoke-RestMethod @splat
             }
             catch {
                 if($_.Exception.Response.StatusCode.value__ -eq 401)
